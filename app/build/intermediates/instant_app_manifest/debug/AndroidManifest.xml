@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.registerlogin"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="30" />
+    <!-- 인터넷 권한 선언 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.registerlogin.fin3" />
+        <activity android:name="com.example.registerlogin.fin2" />
+        <activity android:name="com.example.registerlogin.fin1" />
+        <activity android:name="com.example.registerlogin.random_result" />
+        <activity android:name="com.example.registerlogin.random" />
+        <activity android:name="com.example.registerlogin.major_final" />
+        <activity android:name="com.example.registerlogin.major_decide" />
+        <activity android:name="com.example.registerlogin.major_choice" />
+        <activity android:name="com.example.registerlogin.major" />
+        <activity android:name="com.example.registerlogin.register_quest" />
+        <activity android:name="com.example.registerlogin.register_start" />
+        <activity android:name="com.example.registerlogin.MainActivity" />
+        <activity android:name="com.example.registerlogin.check_todolist" />
+        <activity android:name="com.example.registerlogin.todo_list" />
+        <activity android:name="com.example.registerlogin.quest9" />
+        <activity android:name="com.example.registerlogin.quest8" />
+        <activity android:name="com.example.registerlogin.quest7" />
+        <activity android:name="com.example.registerlogin.quest6" />
+        <activity android:name="com.example.registerlogin.quest5" />
+        <activity android:name="com.example.registerlogin.quest4" />
+        <activity android:name="com.example.registerlogin.quest3" />
+        <activity android:name="com.example.registerlogin.quest2" />
+        <activity android:name="com.example.registerlogin.quest1" />
+        <activity android:name="com.example.registerlogin.init_screen" />
+        <activity android:name="com.example.registerlogin.SemiActivity" />
+        <activity android:name="com.example.registerlogin.Host_RoomActivity" />
+        <activity android:name="com.example.registerlogin.Host_CrewActivity" />
+        <activity android:name="com.example.registerlogin.HostActivity" />
+        <activity android:name="com.example.registerlogin.BeforehostActivity3" />
+        <activity android:name="com.example.registerlogin.BeforehostActivity2" />
+        <activity android:name="com.example.registerlogin.BeforehostActivity1" />
+        <activity android:name="com.example.registerlogin.LoginActivity" > <!-- LoginActivity가 첫 실행화면으로 작동 -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.registerlogin.RegisterActivity" />
+        <activity android:name="com.example.registerlogin.StartActivity" />
+    </application>
+
+</manifest>

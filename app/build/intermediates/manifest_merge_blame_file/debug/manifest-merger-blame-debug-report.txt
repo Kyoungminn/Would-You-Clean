@@ -1,0 +1,154 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.registerlogin"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml
+10    <!-- 인터넷 권한 선언 -->
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:8:5-58:19
+14        android:allowBackup="true"
+14-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] C:\Users\ywchung\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:hardwareAccelerated="false"
+17-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:10:9-44
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:11:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:12:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:13:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:14:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme"
+23-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:15:9-40
+24        android:usesCleartextTraffic="true" >
+24-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:16:9-44
+25        <activity android:name="com.example.registerlogin.fin3" />
+25-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:18:9-51
+25-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:18:19-39
+26        <activity android:name="com.example.registerlogin.fin2" />
+26-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:19:9-42
+26-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:19:19-39
+27        <activity android:name="com.example.registerlogin.fin1" />
+27-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:20:9-42
+27-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:20:19-39
+28        <activity android:name="com.example.registerlogin.random_result" />
+28-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:21:9-51
+28-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:21:19-48
+29        <activity android:name="com.example.registerlogin.random" />
+29-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:22:9-44
+29-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:22:19-41
+30        <activity android:name="com.example.registerlogin.major_final" />
+30-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:23:9-49
+30-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:23:19-46
+31        <activity android:name="com.example.registerlogin.major_decide" />
+31-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:24:9-50
+31-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:24:19-47
+32        <activity android:name="com.example.registerlogin.major_choice" />
+32-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:25:9-50
+32-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:25:19-47
+33        <activity android:name="com.example.registerlogin.major" />
+33-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:26:9-43
+33-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:26:19-40
+34        <activity android:name="com.example.registerlogin.register_quest" />
+34-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:27:9-52
+34-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:27:19-49
+35        <activity android:name="com.example.registerlogin.register_start" />
+35-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:28:9-52
+35-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:28:19-49
+36        <activity android:name="com.example.registerlogin.MainActivity" />
+36-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:29:9-50
+36-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:29:19-47
+37        <activity android:name="com.example.registerlogin.check_todolist" />
+37-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:30:9-52
+37-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:30:19-49
+38        <activity android:name="com.example.registerlogin.todo_list" />
+38-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:31:9-47
+38-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:31:19-44
+39        <activity android:name="com.example.registerlogin.quest9" />
+39-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:32:9-44
+39-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:32:19-41
+40        <activity android:name="com.example.registerlogin.quest8" />
+40-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:33:9-44
+40-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:33:19-41
+41        <activity android:name="com.example.registerlogin.quest7" />
+41-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:34:9-44
+41-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:34:19-41
+42        <activity android:name="com.example.registerlogin.quest6" />
+42-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:35:9-44
+42-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:35:19-41
+43        <activity android:name="com.example.registerlogin.quest5" />
+43-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:36:9-44
+43-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:36:19-41
+44        <activity android:name="com.example.registerlogin.quest4" />
+44-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:37:9-44
+44-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:37:19-41
+45        <activity android:name="com.example.registerlogin.quest3" />
+45-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:38:9-44
+45-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:38:19-41
+46        <activity android:name="com.example.registerlogin.quest2" />
+46-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:39:9-44
+46-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:39:19-41
+47        <activity android:name="com.example.registerlogin.quest1" />
+47-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:40:9-44
+47-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:40:19-41
+48        <activity android:name="com.example.registerlogin.init_screen" />
+48-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:41:9-49
+48-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:41:19-46
+49        <activity android:name="com.example.registerlogin.SemiActivity" />
+49-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:42:9-50
+49-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:42:19-47
+50        <activity android:name="com.example.registerlogin.Host_RoomActivity" />
+50-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:43:9-55
+50-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:43:19-52
+51        <activity android:name="com.example.registerlogin.Host_CrewActivity" />
+51-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:44:9-55
+51-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:44:19-52
+52        <activity android:name="com.example.registerlogin.HostActivity" />
+52-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:45:9-50
+52-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:45:19-47
+53        <activity android:name="com.example.registerlogin.BeforehostActivity3" />
+53-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:46:9-57
+53-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:46:19-54
+54        <activity android:name="com.example.registerlogin.BeforehostActivity2" />
+54-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:47:9-57
+54-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:47:19-54
+55        <activity android:name="com.example.registerlogin.BeforehostActivity1" />
+55-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:48:9-57
+55-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:48:19-54
+56        <activity android:name="com.example.registerlogin.LoginActivity" > <!-- LoginActivity가 첫 실행화면으로 작동 -->
+56-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:49:9-55:20
+56-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:49:19-48
+57            <intent-filter>
+57-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:50:13-54:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:51:17-69
+58-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:51:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:53:17-77
+60-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:53:27-74
+61            </intent-filter>
+62        </activity>
+63        <activity android:name="com.example.registerlogin.RegisterActivity" />
+63-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:56:9-54
+63-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:56:19-51
+64        <activity android:name="com.example.registerlogin.StartActivity" />
+64-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:57:9-51
+64-->C:\Users\ywchung\AndroidStudioProjects\RegisterLogin\app\src\main\AndroidManifest.xml:57:19-48
+65    </application>
+66
+67</manifest>
